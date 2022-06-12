@@ -1,0 +1,42 @@
+site_name: Riggedbooks
+theme:
+    name: readthedocs
+nav:
+    - Home: index.md
+ 
+    - Install: install.md
+
+    - Quickstart: quickstart.md
+
+    - Transform: transform.md
+ 
+    - Parameters: parameters.md
+
+    - Changematerials: changematerials.md
+ 
+    - Animations: animations.md
+
+    - Custom page number: custom page number.md
+
+    - Questions: questions.md
+
+    - Cannotdo: cannotdo.md
+
+    - Changelogs: changelogs.md
+
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - admonition
+    - attr_list
+
+
+
+        
+
+
+    
+        
+
