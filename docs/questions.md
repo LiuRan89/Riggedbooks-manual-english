@@ -1,4 +1,6 @@
 # Questions
+###❓<font color="#dd0000">How to reduce the number of pages？</font><br />
+Video tut:https://youtu.be/VriFDudqick
 
 ###❓<font color="#dd0000">Why the most number is 100？</font><br />
 I can do more, but I don't think it is necessary, because most of the time artists only care about the thickness of the book.
