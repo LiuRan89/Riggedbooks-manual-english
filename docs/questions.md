@@ -2,7 +2,6 @@
 ###❓<font color="#dd0000">How to transform the book？</font><br />
 **[Transform](transform.md)**
 
-# Questions
 ###❓<font color="#dd0000">How to reduce the number of pages？</font><br />
 Video tut:[https://youtu.be/VriFDudqick](https://youtu.be/VriFDudqick)
 
@@ -35,10 +34,13 @@ When the book is closed, find the null object named Cover_Rot_ConD,under it ther
 Select the controller, in the controller's custom properties, there are all parameters, find the required parameter to key frame。
 ![](image/custompanel.png "")
 
-
 ###❓<font color="#dd0000">How to make a cover flip back animation?</font><br />
 Delete the keyframes in the end. Mirror the front keyframes.
 ![](image/close.png "")
+
+###❓<font color="#dd0000">Blender crashed when playing open animation？</font><br />
+In my tests so far, I only found that blender crashes when the wiggle bone addon is turned on at the same time.
+So,if Blender crashed when playing open animation ,be sure to check if the wiggle bone addon is turned on.
 
 
 
