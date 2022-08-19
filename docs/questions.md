@@ -1,4 +1,11 @@
 # Questions
+###❓<font color="#dd0000">About adjusting the curvature of the book spine？</font><br />
+Problem description: the cover spine and pages will interlaing when you increase the spine offset
+![](image/coverspineinter.gif "")
+Find a null object in the middle of the spine cover ,it  is used to control the deep offset of bind and pages,it can be moved left and right ,then you will solve the prolem
+![](image/coverspineintersolveA.png"")
+![](image/coverspineintersolveB.png"")
+
 ###❓<font color="#dd0000">How to transform the book？</font><br />
 **[Transform](transform.md)**
 
