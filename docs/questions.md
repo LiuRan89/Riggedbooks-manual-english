@@ -49,7 +49,12 @@ Delete the keyframes in the end. Mirror the front keyframes.
 In my tests so far, I only found that blender crashes when the wiggle bone addon is turned on at the same time.
 So,if Blender crashed when playing open animation ,be sure to check if the wiggle bone addon is turned on.
 
-
+###❓<font color="#dd0000">"Replace textures" not work？</font><br />
+1.check the texture's format: jpg
+2.check the textures' name: PageTex001.jpg，   PageTex002.jpg，  ...... PageTex199.jpg， Cover_Front_Tex，Cover_Spine_Tex,Cover_Back_tex
+3.Check that the controller is selected before executing the command
+4.still not work,click the reset button ,and try it again
+5.still not work,contact me (547198894@qq.com):send some screenshots of your blender file and rename folder to me .
 
 
 
