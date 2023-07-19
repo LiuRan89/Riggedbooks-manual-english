@@ -57,7 +57,8 @@ So,if Blender crashed when playing open animation ,be sure to check if the wiggl
 4. still not work,click the reset button ,and try it again
 5. still not work,contact me (547198894@qq.com):send some screenshots of your blender file and rename folder to me .
 
-
+###❓<font color="#dd0000">How to export Book animation to other 3d softwares？(unity,c4d,max,maya,......)</font><br />
+Video Tut：[https://youtu.be/Q0eA1I7yfqg](https://youtu.be/Q0eA1I7yfqg)
 
 
 
