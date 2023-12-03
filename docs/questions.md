@@ -51,11 +51,26 @@ In my tests so far, I only found that blender crashes when the wiggle bone addon
 So,if Blender crashed when playing open animation ,be sure to check if the wiggle bone addon is turned on.
 
 ###❓<font color="#dd0000">"Replace textures" not work？</font><br />
-1. check the texture's format: jpg
+1. check the texture's format: jpg,(sometimes you may rename it xxx.jpg.jpg,you can turn on the file extention  in windows exploreroption to check it )
 2. check the textures' name: PageTex001.jpg，   PageTex002.jpg，  ...... PageTex199.jpg， Cover_Front_Tex，Cover_Spine_Tex,Cover_Back_tex
 3. Check that the controller is selected before executing the command
-4. still not work,click the reset button ,and try it again
-5. still not work,contact me (547198894@qq.com):send some screenshots of your blender file and rename folder to me .
+4. Check whether automatic packaging resources are enabled. If yes, disable them.
+ ![](image/pack resources.jpg "")
+
+5. Select any page and check the name of the texture, which may be pageTex001.jpg.00X, similar to the following image:
+This situation is due to the addition of multiple book operations (including deletions) in the same blender file, where the book page map was not completely deleted, resulting in problems with replacing the map.
+The solution, if possible, is to start over in a new blender file. If you have already invested a lot in the current blender file, you have to find a way to delete all the 00x after the name of the texture in batch. The following code can achieve batch modification. Note that if you have created multiple books in the same file and deleted them, the suffix may also be 002, 003, 00x, etc. Just change the.001 in line 5 of the code to the corresponding one.
+![](image/texname.png "")
+
+'''python
+import bpy
+
+for image in bpy.data.images:
+    name = image.name
+    if name.endswith('.001'):
+        name = name[:-4]            
+        image.name = name
+'''
 
 ###❓<font color="#dd0000">How to export Book animation to other 3d softwares？(unity,c4d,max,maya,......)</font><br />
 Video Tut：[https://youtu.be/Q0eA1I7yfqg](https://youtu.be/Q0eA1I7yfqg)
