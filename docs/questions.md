@@ -75,7 +75,8 @@ for image in bpy.data.images:
 ###❓<font color="#dd0000">How to export Book animation to other 3d softwares？(unity,c4d,max,maya,......)</font><br />
 Video Tut：[https://youtu.be/Q0eA1I7yfqg](https://youtu.be/Q0eA1I7yfqg)
 
-
+###❓<font color="#dd0000">Can't play the animation after importing to Unreal Engine？</font><br />
+You need to confirm the selection of "Import Deformation Target" and "Import Animation" in the FBX import options. Also, pay attention to the frame rate. If the frame rate is different from that in blender, a decimal appears in a single frame, and ue will crash.
 
 
 
