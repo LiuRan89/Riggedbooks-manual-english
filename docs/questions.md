@@ -62,7 +62,7 @@ This situation is due to the addition of multiple book operations (including del
 The solution, if possible, is to start over in a new blender file. If you have already invested a lot in the current blender file, you have to find a way to delete all the 00x after the name of the texture in batch. The following code can achieve batch modification. Note that if you have created multiple books in the same file and deleted them, the suffix may also be 002, 003, 00x, etc. Just change the.001 in line 5 of the code to the corresponding one.
 ![](image/texname.png "")
 
-'''python
+''' python
 import bpy
 
 for image in bpy.data.images:
